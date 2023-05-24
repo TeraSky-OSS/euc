@@ -6,6 +6,8 @@ Before using this script, ensure that the following requirements are met:
 1. Set the "Remote Power Policy" on the source desktop pool to "Take no power action."
 2. Prepare a text file containing a list of computers to be processed (computers.txt).
 3. Replace the placeholder values in the script with the correct information for your environment.
+
+
 **Script Details**
 
 **Task 1:** Import the computers list from a text file
