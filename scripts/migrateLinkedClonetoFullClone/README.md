@@ -6,6 +6,9 @@ Before using this script, ensure that the following requirements are met:
 1. Set the "Remote Power Policy" on the source desktop pool to "Take no power action."
 2. Prepare a text file containing a list of computers to be processed (computers.txt).
 3. Replace the placeholder values in the script with the correct information for your environment.
+4. Create a manual desktop full clone pool with the same "Display Name" as the linked clone desktop pool.
+5. Create a new OU in Active Directory for full clone machines.
+6. Removing "delete" and "reset account" permissions from the active directory to the view composer account.
 
 
 **Script Details**
