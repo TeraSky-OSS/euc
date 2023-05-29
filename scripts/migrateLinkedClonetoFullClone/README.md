@@ -94,7 +94,7 @@ Before using this script, ensure that the following requirements are met:
         $cloneStatus = Get-Task | Where-Object {$_.Name -eq 'CloneVM_Task' -and $_.State -eq 'Running'}
     } while ($cloneStatus)
     }
-**Task 7:**Remove the network card from the source VM from the text file
+**Task 7:** Remove the network card from the source VM from the text file
 
     foreach ($computer in $computers) {
     $sourceVM = $computer + "_old"
