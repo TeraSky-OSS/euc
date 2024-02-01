@@ -15,13 +15,13 @@ A powershell script to update the SMIME certificate on Workspace ONE UEM Console
 #-----------------------------------------------------------[Functions]------------------------------------------------------------
 
 #Script parameters
-$apikey = 'vale'
-$username = "vale"
-$UnsecurePassword = "vale"
+$apikey = 'value'
+$username = "value"
+$UnsecurePassword = "value"
 $TenantURL = "asXXXX.awmdm.com"
 $PFXfolder = "C:\Temp\certs"
 $doneFolder = "C:\Temp\certs\done"
-$CertificatePassword = "vale"
+$CertificatePassword = "value"
 $logFilePath = "C:\Temp\cert_upload_log.txt"
 $logRotationDays = 180
 
